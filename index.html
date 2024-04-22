@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAH HealthCare</title>
+    <link rel="icon" href="./assets/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <div class="partition">
+        <section class="first-half-sec">    
+            <div class="center">
+                <div class="logo-container">
+                    <img class="hero-logo" src="./assets/FAH-logo.jpg" alt="logo">
+                    <!-- <div class="loading-icon"></div> -->
+                </div>
+                <h3 class="poppins-semibold" style="margin-top: 10px; font-size:x-large;">Welcome to</h3>
+                <h3 style="font-size:xx-large">FAH HealthCare</h3>
+            </div>
+            
+            <div class="coming-soon-box">
+                <h2 class="poppins-semibold m0" style="font-size: large; align-self: center;">Launching Soon, Stay tuned!</h2>
+                <div>
+                    <form id="emailForm" class="email-box" action="/Comingsoon.html" method="post">
+                        <input class="btn-box" type="email" name="email" id="emailInput" placeholder="Notify me via email">
+                        <button type="submit" class="btn-subscribe">Subscribe</button>
+                        <p id="successMessage"  class="email-confirm" style="display: none; position: absolute;">We will notify you when we go live!</p>
+                    </form>
+                </div>
+            </div>
+            <div class="illustration-box">
+                <img class="dev-illustration" src="./assets/3099563.jpg" alt="Developer illustration">
+                <p class="illustration-text">Our developers are on it</p>
+            </div>
+        </section>
+        <section class="second-half-sec">
+            <img id="image" src="./assets/hero-picture.jpg" alt="Hero Picture">
+        </section>
+    </div>
+</body>
+</html>
