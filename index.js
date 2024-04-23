@@ -45,13 +45,13 @@ document.addEventListener('DOMContentLoaded', function () {
     });
     
 });
-document.addEventListener('contextmenu', function(event) {
-    event.preventDefault();
-}, false);
-document.addEventListener('keydown', function(event) {
-    if (event.key === 'F12' || (event.ctrlKey && event.shiftKey && (event.key === 'I' || event.key === 'C' || event.key === 'J'))) {
-        event.preventDefault();
-        alert('Inspect element is disabled.');
-    }
-}, false);
+// document.addEventListener('contextmenu', function(event) {
+//     event.preventDefault();
+// }, false);
+// document.addEventListener('keydown', function(event) {
+//     if (event.key === 'F12' || (event.ctrlKey && event.shiftKey && (event.key === 'I' || event.key === 'C' || event.key === 'J'))) {
+//         event.preventDefault();
+//         alert('Inspect element is disabled.');
+//     }
+// }, false);
 

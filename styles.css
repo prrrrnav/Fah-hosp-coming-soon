@@ -279,7 +279,8 @@ input:not(:focus) {
     width: 100%;
     padding: 0;
     justify-content: center;
-    margin-top: 150px;
+    margin-top: 50px;
+
   }
 
   .second-half-sec img {
@@ -307,14 +308,15 @@ input:not(:focus) {
 
   .first-half-sec {
     justify-content: center;
-    gap: 72px;
+    height: auto;
+    gap: 22px;
   }
 
   .second-half-sec {
     
     width: 100%;
     height: fit-content;
-    margin-top:100px ;
+    margin-top:50px ;
     clip-path: polygon(100% 0, 0 0, 0% 100%, 100% 100%);
     /* Adjust clip-path */
   }
